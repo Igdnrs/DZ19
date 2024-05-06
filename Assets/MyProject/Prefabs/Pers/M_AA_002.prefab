@@ -1548,8 +1548,8 @@ GameObject:
   - component: {fileID: 7039715463186535958}
   - component: {fileID: 5361024991421260920}
   - component: {fileID: 5037159552145368283}
-  - component: {fileID: 2604236964195820002}
-  - component: {fileID: 3892296432347939865}
+  - component: {fileID: 8176670666569527326}
+  - component: {fileID: 861663908458901332}
   m_Layer: 0
   m_Name: M_AA_002
   m_TagString: Untagged
@@ -1647,7 +1647,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &2604236964195820002
+--- !u!114 &8176670666569527326
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1662,7 +1662,7 @@ MonoBehaviour:
   rig: {fileID: 5037159552145368283}
   speed: 10
   sens: 10
---- !u!114 &3892296432347939865
+--- !u!114 &861663908458901332
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

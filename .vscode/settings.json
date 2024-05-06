@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "DZ_19.sln"
+    "dotnet.defaultSolution": "DZ19.sln"
 }
