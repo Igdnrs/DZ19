@@ -6,11 +6,7 @@
 //// Contact: support@codewart.com
 //// Unity Asset Store: https://assetstore.unity.com/publishers/49258
 /////////////////////////////////////////////
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ModulesShaker : MonoBehaviour {
 

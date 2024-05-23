@@ -1,19 +1,12 @@
-using JetBrains.Rider.Unity.Editor;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class PersMove : MonoBehaviour
 {
     [SerializeField] Rigidbody rig;
-    [SerializeField] float speed = 10;
     //Положить в class Settings:
     [SerializeField] float sens = 10;
     Vector3 moveDir;
     float rotateXDir;
-    void Start()
-    {
-        
-    }
     void Update()
     {
         TestInp();
@@ -46,6 +39,14 @@ public class PersMove : MonoBehaviour
             if(moveDir == Vector3.zero || 
             rig == null) return;
             rig.AddForce(moveDir, ForceMode.VelocityChange);
+            if (rig.velocity.magnitude > 5)
+            {
+                Vector3 velocity = rig.velocity;
+                float y = velocity.y;
+                velocity = velocity.normalized * 5;
+                velocity.y = y;
+                rig.velocity = velocity;
+            }
         }
         rig.AddForce(moveDir, ForceMode.VelocityChange);
         void Rotate()
@@ -59,6 +60,6 @@ public class PersMove : MonoBehaviour
     {
         movDir.y = 0;
         movDir.Normalize();
-        this.moveDir = movDir;
+        moveDir = movDir;
     }
 }

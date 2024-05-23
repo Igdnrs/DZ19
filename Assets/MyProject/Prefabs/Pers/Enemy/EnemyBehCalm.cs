@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyBehCalm : EnemyBeh
@@ -26,9 +24,8 @@ public class EnemyBehCalm : EnemyBeh
             float dist = toPlayer.magnitude;
             float distMax = 10f;
             if(dist > distMax) return;
-            RaycastHit hit;
             Ray ray = new Ray(agent.transform.position, toPlayer.normalized);
-            Physics.Raycast(ray, out hit, distMax);
+            Physics.Raycast(ray, out RaycastHit hit, distMax);
             if(hit.collider == null) return;
             if(hit.collider.gameObject != Player.Instance.gameObject) return;
             Enemy enemy = agent.GetComponent<Enemy>();

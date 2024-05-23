@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : Char
+public class Enemy : Character
 {
     EnemyBeh behActive;
+
     void Start()
     {
         StartBeh();
@@ -19,7 +18,7 @@ public class Enemy : Char
     }
     public void SetBeh(EnemyBeh newBeh)
     {
-        if(newBeh == null) return;
+        if (newBeh == null) return;
         behActive?.Exit();
         behActive = newBeh;
         behActive.Enter();
