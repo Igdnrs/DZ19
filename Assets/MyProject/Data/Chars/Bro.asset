@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Bro
   m_EditorClassIdentifier: 
   prefab: {fileID: 1601037767692750, guid: 2a038e4e49fd7f64aa727b5a60cfd55b, type: 3}
-  gunData: {fileID: 11400000, guid: 1c43614b6c2c2bc489dacfa37ec172f3, type: 2}
+  weaponData: {fileID: 11400000, guid: 1c43614b6c2c2bc489dacfa37ec172f3, type: 2}
   MaxHealth: 100

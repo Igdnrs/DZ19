@@ -48,7 +48,7 @@ public class PersMove : MonoBehaviour
                 rig.velocity = velocity;
             }
         }
-        rig.AddForce(moveDir, ForceMode.VelocityChange);
+        rig.AddForce(moveDir, ForceMode.Impulse);
         void Rotate()
         {
             if(rotateXDir == 0) return;

@@ -10,11 +10,6 @@ public class MobSpawner : MonoBehaviour
         SpawnPlayer();
         SpawnEnemies();
     }
-    void Update()
-    {
-        Debug.Log($"Лист энеми: {enemyDatas.Count}." +
-        $"Лист плеер: {playerDatas.Count}");
-    }
     void SpawnEnemies()
     {
         int numData = Random.Range(0, enemyDatas.Count);

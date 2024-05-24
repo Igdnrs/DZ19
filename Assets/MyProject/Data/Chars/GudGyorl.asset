@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: GudGyorl
   m_EditorClassIdentifier: 
   prefab: {fileID: 1965107420363712, guid: b8b1f673afe204743824d4094dc4d7ca, type: 3}
-  gunData: {fileID: 11400000, guid: 5c6bba3295e0652499ea76ae8462b559, type: 2}
+  weaponData: {fileID: 11400000, guid: 5c6bba3295e0652499ea76ae8462b559, type: 2}
   MaxHealth: 100

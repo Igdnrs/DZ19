@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: NotBro
   m_EditorClassIdentifier: 
   prefab: {fileID: 1601037767692750, guid: 2a038e4e49fd7f64aa727b5a60cfd55b, type: 3}
-  gunData: {fileID: 11400000, guid: 5c6bba3295e0652499ea76ae8462b559, type: 2}
+  weaponData: {fileID: 11400000, guid: 285a4a9f2d5a827498d15b975ad565e9, type: 2}
   MaxHealth: 100
